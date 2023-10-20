@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>scp上传文件至服务器</title>
+      <link href="/2023/10/20/scp%E4%BC%A0%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/10/20/scp%E4%BC%A0%E6%96%87%E4%BB%B6%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>上传单个文件至服务器（scp后加-r，可以上传整个文件夹至服务器）<br> <code>scp local_file(folder)_url username@serverip:remote_folder_path</code></p></li><li><p>上传多个文件至服务器<br> <code>scp a.txt b.txt username@serverip:remote_folder_path</code></p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ubuntu常用命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Graph Neural Networks:Foundations, Frontiers, Applications PPT阅读笔记</title>
       <link href="/2023/10/20/GNNAAAIppt/"/>
       <url>/2023/10/20/GNNAAAIppt/</url>
