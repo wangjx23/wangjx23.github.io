@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>有关GNN的不错的讲解博客【有新的会加入】</title>
+      <link href="/2023/10/20/GNNurls/"/>
+      <url>/2023/10/20/GNNurls/</url>
+      
+        <content type="html"><![CDATA[<h3 id="20231020更新"><a href="#20231020更新" class="headerlink" title="20231020更新"></a>20231020更新</h3><ol><li><p>GNN图神经网络梳理（GCN、GAT、GraphSage）<br><a href="https://blog.csdn.net/goto_past/article/details/119765135">https://blog.csdn.net/goto_past/article/details/119765135</a>  </p></li><li><p>终于有人总结了图神经网络！(GCN、GraphSAGE、GAT、GAE、graph pooling、DiffPool)<br><a href="https://www.scholat.com/teamwork/showPostMessage.html?id=10103">https://www.scholat.com/teamwork/showPostMessage.html?id=10103</a></p></li><li><p>图神经网络概述第三弹：来自IEEE Fellow的GNN综述（A Comprehensive Survey on Graph Neural Networks）<br><a href="https://www.jiqizhixin.com/articles/2019-01-07-8">https://www.jiqizhixin.com/articles/2019-01-07-8</a></p></li><li><p>图卷积网络 Graph Convolutional Network（GCN）的理解和详细推导<br><a href="https://zhuanlan.zhihu.com/p/341332382">https://zhuanlan.zhihu.com/p/341332382</a></p></li><li><p>【论文解读 WWW 2019 | HAN】Heterogeneous Graph Attention Network<br><a href="https://blog.csdn.net/byn12345/article/details/104992824">https://blog.csdn.net/byn12345/article/details/104992824</a></p></li><li><p>异质网络模型HetGNN论文总结理解<br><a href="https://blog.csdn.net/weixin_44630230/article/details/124164611">https://blog.csdn.net/weixin_44630230/article/details/124164611</a></p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 图神经网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LLM相关网站</title>
       <link href="/2023/10/16/%E5%BE%85%E5%8F%91%E8%A1%A8/LLMRelatedWebs/"/>
       <url>/2023/10/16/%E5%BE%85%E5%8F%91%E8%A1%A8/LLMRelatedWebs/</url>
