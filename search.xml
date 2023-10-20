@@ -23,25 +23,6 @@
     
     
     <entry>
-      <title>Graph Neural Networks:Foundations, Frontiers, Applications PPT阅读笔记</title>
-      <link href="/2023/10/20/GNNAAAIppt/"/>
-      <url>/2023/10/20/GNNAAAIppt/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>图是描述和模拟复杂系统的一般语言，图&#x3D;图拓扑+节点属性+节点类型。真实生活中的图数据无处不在：社交网络、信息检索、医药分子。  </p><span id="more"></span><h2 id="GNN-Foundations"><a href="#GNN-Foundations" class="headerlink" title="GNN Foundations"></a>GNN Foundations</h2><h3 id="GNNs-for-Node-Classification"><a href="#GNNs-for-Node-Classification" class="headerlink" title="GNNs for Node Classification"></a>GNNs for Node Classification</h3><ol><li>目的为学习节点嵌入或图级别的嵌入（特征表征）；  </li><li>关键思想为基于局部邻居节点生成节点嵌入（Neighborhood Aggregation），每一个节点定义了一个unique的计算图；</li><li>GNN模型的一般流程为：<br>（1）定义邻居聚合函数；<br>（2）定义损失函数；<br>（3）在一些节点上（一些计算图上）训练；<br>（4）为需要的节点（未见过节点）生成嵌入；</li></ol><h3 id="Expressive-Power"><a href="#Expressive-Power" class="headerlink" title="Expressive Power"></a>Expressive Power</h3><ol><li><p>两个问题：（1）GNN能近似哪一类函数？<br>（2）GNN是否能区分两种不同的图结构？</p></li><li><p>MP（信息传递）-GNN中结构（环）信息会丢失；</p></li></ol><h3 id="Interpretability"><a href="#Interpretability" class="headerlink" title="Interpretability"></a>Interpretability</h3><ol><li>图解释的形式：重要节点、重要边、节点特征向量、重要特征；</li></ol><h2 id="GNN-Frontiers"><a href="#GNN-Frontiers" class="headerlink" title="GNN Frontiers"></a>GNN Frontiers</h2><h3 id="Graph-Generation-Transformation"><a href="#Graph-Generation-Transformation" class="headerlink" title="Graph Generation&amp;Transformation"></a>Graph Generation&amp;Transformation</h3><h3 id="Dynamic-Graph"><a href="#Dynamic-Graph" class="headerlink" title="Dynamic Graph"></a>Dynamic Graph</h3><ol><li>动态图类型：（1）离散时间动态图（2）连续时间动态图；  </li><li>图动力操作：（1）节点增加删除（2）特征更新（3）边增加删除（4）边权重更新；</li><li>任务类型：（1）动态节点分类&#x2F;回归（2）动态图分类（3）动态链接（link）预测（4）时间预测；</li></ol><h3 id="Graph-Matching"><a href="#Graph-Matching" class="headerlink" title="Graph Matching"></a>Graph Matching</h3><ol><li>对于NP-hard问题，多项式时间内的次优启发式解决方案存在可扩展性问题，基于GNN的方法在有效性和效率上都优于传统方法；</li></ol><h3 id="Graph-Structure-Learning"><a href="#Graph-Structure-Learning" class="headerlink" title="Graph Structure Learning"></a>Graph Structure Learning</h3><h3 id="Graph-Classification"><a href="#Graph-Classification" class="headerlink" title="Graph Classification"></a>Graph Classification</h3><h3 id="Link-Prediction"><a href="#Link-Prediction" class="headerlink" title="Link Prediction"></a>Link Prediction</h3><h3 id="Heterogeneous-GNNs"><a href="#Heterogeneous-GNNs" class="headerlink" title="Heterogeneous GNNs"></a>Heterogeneous GNNs</h3><h3 id="GNNS-AutoML"><a href="#GNNS-AutoML" class="headerlink" title="GNNS: AutoML"></a>GNNS: AutoML</h3><h3 id="Self-supervised-Learning"><a href="#Self-supervised-Learning" class="headerlink" title="Self-supervised Learning"></a>Self-supervised Learning</h3><h2 id="GNN-Applications"><a href="#GNN-Applications" class="headerlink" title="GNN Applications"></a>GNN Applications</h2><h3 id="GNNs-in-Recommendation"><a href="#GNNs-in-Recommendation" class="headerlink" title="GNNs in Recommendation"></a>GNNs in Recommendation</h3><h3 id="GNNs-in-Natural-Language-Processing"><a href="#GNNs-in-Natural-Language-Processing" class="headerlink" title="GNNs in Natural Language Processing"></a>GNNs in Natural Language Processing</h3><ol><li><p>表征能力：graph＞sequence＞bag; 不同的NLP任务需要文本的不同aspects，而不同的图可以capture文本的不同aspects；  </p></li><li><p>Static Graph Construction:（1）Dependency Graph;(2)Constiuency Graph;(3)AMR Graph;(4)IE Graph;(5)Knowledge Graph;(6)SQL Graph;</p></li><li><p>Dynamic Graph Construction:(1)Graph Similarity Metric Learning Techniques;(2)Graph Sparsification Techniques;</p></li><li><p>图表征学习</p></li></ol><p>（1）同质图、多关系图、异质图<br><img src="/%E5%9B%BE%E7%89%87/HMH.png" title="无题"><br>（2）给定图的GNN选取<br><img src="/%E5%9B%BE%E7%89%87/GNNchoose.png"><br>同质GNNs：GCN、GAT、GraphSage、GGNN；<br>多关系GNN：GNN包括关系特定的转换参数、边embeddings、Multi-relational Graph Transformers；<br>异质GNN：基于元路径的GNN，如HAN；</p><ol start="5"><li>Graph4NLP（深度学习库on Graphs for NLP）</li></ol><h3 id="GNNs-in-Program-Analysis"><a href="#GNNs-in-Program-Analysis" class="headerlink" title="GNNs in Program Analysis"></a>GNNs in Program Analysis</h3><ol><li>Case Study:(1)检测变量误用错误（2）Predicting Types in Dynamically Typed Languages（3）code similarity analysis（4）Code Translation;</li></ol><h3 id="GNNs-in-Protein-Modeling"><a href="#GNNs-in-Protein-Modeling" class="headerlink" title="GNNs in Protein Modeling"></a>GNNs in Protein Modeling</h3>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 图神经网络 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>有关GNN的不错的讲解博客【有新的会加入】</title>
       <link href="/2023/10/20/GNNurls/"/>
       <url>/2023/10/20/GNNurls/</url>
